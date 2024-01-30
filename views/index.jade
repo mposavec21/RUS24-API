@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  head
+    h2= title
+  body
+    table
+      thead
+        tr
+          th ID
+          th UserID
+          th Rating
+          th DeviceID
+          th DateTime

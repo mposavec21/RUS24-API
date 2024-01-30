@@ -2,6 +2,8 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/253ad603-98db-4ab5-85ea-c029648d6cfe/resourceGroups/rus23/providers/Microsoft.Web/sites/rus24-mposavec-front",
+    "appService.deploySubpath": "."
 }
 
